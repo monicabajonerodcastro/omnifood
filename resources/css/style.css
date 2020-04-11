@@ -402,6 +402,31 @@ cite img{
     vertical-align: middle;
 }
 
+/* --------------------------------------------- */
+/* PLANS */
+/* --------------------------------------------- */
 
+.section-plans{
+    background-color: #F4F4F4;
+}
 
+.plan-box{
+    background-color: #FFF;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+}
 
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.plan-price{
+    font-size: 300%;
+    margin-bottom: 10px;
+}
+
+.plan-price-meal{
+    
+}
