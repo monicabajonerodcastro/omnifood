@@ -113,6 +113,37 @@ h2:after{
     margin-bottom: 10px;
 }
 
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #E67E22;
+    font-size: 120%;
+    margin-right: 10px;
+    
+    /* secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+/* ----- LINKS ----- */
+
+a:link,
+a:visited{
+    color: #E67E22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #E67E22;
+    transition: border-botom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active{
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
 /* ----- BUTTONS ----- */
 
 .btn:link,
@@ -140,7 +171,6 @@ h2:after{
     color: #E67E22;
 }
 
-
 .btn:hover,
 .btn:active {
     background-color: #CF6D17;
@@ -156,6 +186,7 @@ h2:after{
     border: 1px solid #CF6D17;
     color: #FFF;
 }
+
 
 /* --------------------------------------------- */
 /* HEADER */
@@ -304,10 +335,29 @@ header{
     margin-right: 25px;
 }
 
+.btn-app:link,
+.btn-app:visited{
+    border:0;
+}
+
 .btn-app img{
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+/* --------------------------------------------- */
+/* CITIES */
+/* --------------------------------------------- */
+
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature{
+    margin-bottom: 5px;
 }
 
 
