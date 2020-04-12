@@ -263,6 +263,25 @@ header{
     border-bottom: 2px solid #E67E22;   
 }
 
+/*----- MOBILE NAVI -----*/
+.mobile-nav-icon{
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon ion-icon{
+    font-size: 200%;
+    color: #FFF;
+}
+
+.mobile-nav-icon .hidden-nav-icon{
+    display: none;
+}
+
+
+
 /*----- STICKY NAVI -----*/
 .sticky{
     position: fixed;

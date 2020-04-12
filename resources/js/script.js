@@ -83,4 +83,21 @@ $(document).ready(function(){
         offset: '50%'
     });
     
+    /* Mobile navigation */
+    $('.js--nav-icon').click(function(){
+        var nav = $('.js--main-nav');
+        nav.slideToggle(200);
+        var showedIcon = $('.js--visible-nav-icon');
+        var hiddenIcon = $('.js--hidden-nav-icon');
+        
+        hiddenIcon.removeClass('hidden-nav-icon');
+        hiddenIcon.removeClass('js--hidden-nav-icon');
+        hiddenIcon.addClass('js--visible-nav-icon');
+        
+        showedIcon.removeClass('js--visible-nav-icon');
+        showedIcon.addClass('js--hidden-nav-icon');
+        showedIcon.addClass('hidden-nav-icon');
+        
+    });
+    
 });
